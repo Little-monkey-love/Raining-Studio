@@ -1,11 +1,9 @@
+* {
+  font-family: fantasy;
+}
 body {
   background-color: #00357a;
   
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .horizontalcenter {
@@ -13,7 +11,16 @@ img {
   justify-content: center;
 }
 
+button {
+  color: white;
+  background-color: transparent;
+  border:0cap;
+}
 button:hover {
-  background-color: gray;
+  color: gray;
+}
+
+.bottom-text {
+  margin-top: auto;
 }
 
