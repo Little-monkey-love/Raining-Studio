@@ -1,10 +1,7 @@
 * {
   font-family: fantasy;
 }
-body {
-  background-color: #00357a;
-  
-}
+
 
 .horizontalcenter {
   display: flex;
