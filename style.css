@@ -2,7 +2,6 @@
   font-family: fantasy;
 }
 
-
 .horizontalcenter {
   display: flex;
   justify-content: center;
@@ -13,6 +12,7 @@ button {
   background-color: transparent;
   border:0cap;
 }
+
 button:hover {
   color: gray;
 }
@@ -21,3 +21,23 @@ button:hover {
   margin-top: auto;
 }
 
+body {
+  background-image: url(Home\ background\ .jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.content {
+  position: relative;
+  min-height: 100vh;
+}
+
+.dog {
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
